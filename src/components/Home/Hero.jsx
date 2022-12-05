@@ -24,7 +24,7 @@ const Hero = () => {
       </div>
       <div className="grid h-[90%] w-full grid-cols-1 bg-gradient-to-b from-blue-300 to-white md:grid-cols-2 ">
         <div className="col-span-1 flex flex-col justify-evenly ">
-          <div className="flex flex-col items-center justify-center space-y-2 font-press-start text-2xl md:space-y-4 md:text-4xl pt-10">
+          <div className="flex flex-col items-center justify-center space-y-2 font-press-start text-2xl md:space-y-4 md:text-4xl pt-10 md:pl-10">
             <div>Citizen Services</div>
             <div>Hackathon 2023</div>
           </div>
