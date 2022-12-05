@@ -10,10 +10,10 @@ module.exports = {
         navColor : "#DCE7F9"
       },
       textColor : {
-        navColor : "#154E6D"
+        navColor : "#000000"
       },
       height : {
-        navHeight : "12%"
+        navHeight : "10%"
       },
       fontFamily: {
         'press-start': ['"Press Start 2P"', 'cursive'],
