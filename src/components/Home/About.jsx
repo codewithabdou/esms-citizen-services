@@ -5,10 +5,10 @@ import Timer from "../Timer";
 const About = () => {
   const time = new Date();
   const waitedDay =new Date("2023-02-23")
-  time.setSeconds(waitedDay.getTime()/1000 - time.getTime()/1000); // 10 minutes timer
+  time.setSeconds(waitedDay.getTime()/1000 - time.getTime()/1000);
   return (
     <div className="flex h-[90vh] flex-col">
-      <div className="flex h-[30%] flex-col items-center justify-around bg-[#154E6D] bg-opacity-80 tracking-widest text-white ">
+      <div className="flex h-[30%] flex-col items-center justify-around bg-[#154E6D] bg-opacity-80 tracking-widest text-white drop-shadow-3xl ">
         <div className=" text-3xl font-bold md:text-4xl">
           Don't miss the chance
         </div>

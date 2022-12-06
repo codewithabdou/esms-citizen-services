@@ -4,7 +4,7 @@ import { MdOutlinePlace, MdDateRange } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 import ROUTES from "../../constants/routes";
 import { HiOutlineBuildingOffice2 } from "react-icons/hi2";
-
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   const navigation = useNavigate();
@@ -26,7 +26,19 @@ const Hero = () => {
         <div className="col-span-1 flex flex-col justify-evenly ">
           <div className="flex flex-col items-center justify-center space-y-2 font-press-start text-2xl md:space-y-4 md:text-4xl pt-10 md:pl-10">
             <div>Citizen Services</div>
-            <div>Hackathon 2023</div>
+            <TypeAnimation
+              sequence={[
+                "",
+                1000,
+                "Hackathon",
+                2000,
+                "Hackathon 2023",
+                5000,
+                "Hackathon 2023",
+              ]}
+              cursor={true}
+              repeat={Infinity}
+            />
           </div>
           <div className="ml-20 text-lg text-[#154E6D]">
             <div className="flex items-center space-x-2">
