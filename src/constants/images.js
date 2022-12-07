@@ -2,10 +2,15 @@ const IMAGES = {
     LOGOPNG : '/images/logo.png',
     LOGOSVG : '/images/logo.svg',
     BG : '/images/background.png',
-    HERO : '/images/heroImg.png',
-    ABOUT : '/images/aboutImg.png',
     ARROWSDOWN : '/images/arrowsIcon.png',
-    CSELOGO : '/images/cseLogo.png'
+    CSELOGO : '/images/cseLogo.png',
+    OWNER : 'images/owner.png',
+    SONALGAZ : 'images/Sonalgaz.png',
+    YASSIR : 'images/Yassir.png',
+    ETUSA : 'images/Etusa.png',
+    CEVITAL : 'images/Cevital.png',
+    SAA : 'images/Saa.png',
+
 }
 
 export default IMAGES

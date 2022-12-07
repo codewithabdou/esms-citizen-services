@@ -74,7 +74,7 @@ const Hero = () => {
         </div>
       </div>
         <div onClick={OnClickHandler} className="h-[10%] ">
-          <img src={IMAGES.ARROWSDOWN} alt="arrows" className={` ${!showArrows ? "hidden" : "block"} shanimate-pulse cursor-pointer`} />
+          <img src={IMAGES.ARROWSDOWN} alt="arrows" className={` ${!showArrows ? "hidden" : "block"} animate-pulse cursor-pointer`} />
         </div>
       
     </div>

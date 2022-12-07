@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import { Home, Agenda, Faq, Talks, Workshops, Sponsors } from "./routes";
+import { Home, Agenda, FAQ, Talks, Workshops, Sponsors } from "./routes";
 import Layout from "./components/Layout/Layout";
 import ROUTES from "./constants/routes";
 
@@ -12,7 +12,7 @@ const App = () => {
         <Route element={<Workshops />} path={ROUTES.WORKSHOPS} />
         <Route element={<Talks />} path={ROUTES.TALKS} />
         <Route element={<Agenda />} path={ROUTES.AGENDA} />
-        <Route element={<Faq />} path={ROUTES.FAQ} />
+        <Route element={<FAQ />} path={ROUTES.FAQ} />
         <Route element={<Sponsors />} path={ROUTES.SPONSORS} />
       </Routes>
     </Layout>

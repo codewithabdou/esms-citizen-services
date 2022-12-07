@@ -8,7 +8,7 @@ const About = () => {
   time.setSeconds(waitedDay.getTime() / 1000 - time.getTime() / 1000);
   return (
     <div className="flex h-[90vh] flex-col">
-      <div className="flex h-[40%] flex-col items-center justify-around bg-[#547793] bg-opacity-80 tracking-widest text-white drop-shadow-3xl ">
+      <div className="flex h-[40%] flex-col items-center justify-around bg-[#547793] bg-opacity-80 tracking-widest text-white drop-shadow-3xl stroke-black ">
         <div className=" text-4xl font-bold md:text-6xl font-title text-center leading-20">
           Don't miss the chance
         </div>
