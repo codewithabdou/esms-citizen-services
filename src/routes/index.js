@@ -1,5 +1,5 @@
 export {default as Home} from "./Home"
-export {default as FAQ} from "./Faq"
+export {default as FAQ} from "./FAQ"
 export {default as Talks} from "./Talks"
 export {default as Agenda} from "./Agenda"
 export {default as Sponsors} from "./Sponsors"
