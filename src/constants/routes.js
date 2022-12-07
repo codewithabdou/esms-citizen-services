@@ -4,7 +4,7 @@ const ROUTES = {
     WORKSHOPS : "/workshops",
     SPONSORS : "/sponsors",
     FAQ : "/faq",
-    CONFERENCES : "/conferences",
+    TALKS : "/talks",
 
 }
 

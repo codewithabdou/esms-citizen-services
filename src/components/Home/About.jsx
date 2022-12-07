@@ -4,34 +4,34 @@ import Timer from "../Timer";
 
 const About = () => {
   const time = new Date();
-  const waitedDay =new Date("2023-02-23")
-  time.setSeconds(waitedDay.getTime()/1000 - time.getTime()/1000);
+  const waitedDay = new Date("2023-02-23");
+  time.setSeconds(waitedDay.getTime() / 1000 - time.getTime() / 1000);
   return (
     <div className="flex h-[90vh] flex-col">
-      <div className="flex h-[30%] flex-col items-center justify-around bg-[#154E6D] bg-opacity-80 tracking-widest text-white drop-shadow-3xl ">
-        <div className=" text-3xl font-bold md:text-4xl">
+      <div className="flex h-[40%] flex-col items-center justify-around bg-[#547793] bg-opacity-80 tracking-widest text-white drop-shadow-3xl ">
+        <div className=" text-4xl font-bold md:text-6xl font-title text-center leading-20">
           Don't miss the chance
         </div>
         <Timer expiryTimestamp={time} />
       </div>
-      <div className="grid h-[70%] grid-cols-1 gap-y-16 bg-gradient-to-b from-blue-300 to-white md:grid-cols-2">
-        <div className="col-span-1 h-full p-6">
-          <h1 className="font-press-start text-xl md:text-2xl">
+      <div className=" h-[70%]">
+        <div className=" h-full p-6 md:space-y-10 flex flex-col">
+          <h1 className="font-title text-3xl md:text-4xl">
             What is Citizen Services ?
           </h1>
-          <p className="mt-6 text-2xl">
+          <p className="my-6 text-xl md:2xl ">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
             assumenda, laudantium quasi ducimus architecto, ut at tempore
             dignissimos perspiciatis nostrum officia, harum est! Sed velit minus
-            aperiam, officiis quaerat porro!
+            aperiam, officiis quaerat porro! Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Dicta est corporis error iusto!
+            Quisquam, recusandae debitis. Totam dolorem consequuntur dolore.
+            Illo esse earum omnis, molestias natus amet odio explicabo
+            repudiandae!
           </p>
-        </div>
-        <div className="col-span-1 flex h-full items-center justify-center">
-          <img
-            src={IMAGES.ABOUT}
-            className="h-96 animate-bounce object-contain"
-            alt=""
-          />
+          <button className="w-36 self-center rounded-full bg-[#547793] py-3 px-3 font-bold shadow-2xl text-white border-black border-[1px] hover:text-black hover:-translate-y-1 hover:bg-[#B4DDFF] transition duration-300">
+            Register
+          </button>
         </div>
       </div>
     </div>

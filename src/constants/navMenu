@@ -3,7 +3,7 @@ import ROUTES from "./routes";
 const navMenu = [
   { path: ROUTES.HOME, name: "Home" },
   { path: ROUTES.WORKSHOPS, name: "Workshops" },
-  { path: ROUTES.CONFERENCES, name: "Conferences" },
+  { path: ROUTES.CONFERENCES, name: "Talks" },
   { path: ROUTES.AGENDA, name: "Agenda" },
   { path: ROUTES.SPONSORS, name: "Sponsors" },
   { path: ROUTES.FAQ, name: "FAQ" },

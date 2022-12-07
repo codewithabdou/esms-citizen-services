@@ -16,7 +16,7 @@ module.exports = {
         navHeight : "10vh"
       },
       fontFamily: {
-        'press-start': ['"Press Start 2P"', 'cursive'],
+        'title': ['Zen Dots', 'cursive'],
       },
       dropShadow: {
         '3xl': '0 5px 5px rgba(0, 0, 0, 0.5)',
