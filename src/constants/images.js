@@ -11,6 +11,7 @@ const IMAGES = {
     CEVITAL : 'images/Cevital.png',
     SAA : 'images/Saa.png',
     TALK : 'images/talk.png',
+    TALKER : 'images/talker1.jpg',
 
 
 }

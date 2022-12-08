@@ -27,9 +27,6 @@ const Hero = () => {
 
   return (
     <div className="relative flex h-[90vh] flex-col items-center justify-center bg-transparent ">
-      <div className="absolute bottom-20 left-20 -rotate-45 ">
-        <HiOutlineBuildingOffice2 className=" h-10 w-auto animate-bounce text-[#547793] opacity-50 md:h-20" />
-      </div>
       <div className={`grid h-[90%] w-full grid-cols-1 md:grid-cols-2 `}>
         <div className="col-span-1 flex flex-col justify-evenly gap-y-10 ">
           <div className="flex flex-col items-center justify-center space-y-2 font-title text-3xl md:space-y-4 md:text-5xl pt-10 md:pl-10">
@@ -48,14 +45,14 @@ const Hero = () => {
               repeat={Infinity}
             />
           </div>
-          <div className="ml-20 text-lg text-black">
+          <div className="md:ml-20 text-lg text-black space-y-2 px-5 md:px-0">
             <div className="flex items-center space-x-2">
-              <MdDateRange />
+              <MdDateRange className="text-2xl"/>
               <div>February, 23th, 2023</div>
             </div>
             <div className="flex items-center space-x-2">
-              <MdOutlinePlace />
-              <div>Higher national school of computer science (ESI ex INI)</div>
+              <MdOutlinePlace className="xl:text-2xl text-4xl" />
+              <div >Higher national school of computer science (ESI ex INI) ,Oued smar ,Algiers</div>
             </div>
           </div>
           <button
