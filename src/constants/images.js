@@ -10,6 +10,8 @@ const IMAGES = {
     ETUSA : 'images/Etusa.png',
     CEVITAL : 'images/Cevital.png',
     SAA : 'images/Saa.png',
+    TALK : 'images/talk.png',
+
 
 }
 

@@ -37,7 +37,7 @@ const Navbar = () => {
           menuHidden
             ? "hidden"
             : "fixed left-0 top-0 z-40 flex h-screen w-screen flex-col items-center justify-center gap-y-10 bg-gray-100 bg-opacity-90 text-4xl "
-        } text-lg font-bold text-black lg:flex lg:flex-row lg:gap-16 lg:bg-transparent`}
+        } text-lg font-bold text-black md:flex md:flex-row xl:gap-16 md;mr-10 md:gap-8 xl:bg-transparent xl:mr-20`}
       >
         {navMenu.map((item, index) => {
           return (
@@ -53,7 +53,7 @@ const Navbar = () => {
           );
         })}
       </ul>
-      <div className="z-40 text-3xl text-black lg:hidden">
+      <div className="z-40 text-3xl text-black md:hidden">
         {menuHidden ? (
           <GiHamburgerMenu
             onClick={() => {

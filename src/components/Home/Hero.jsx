@@ -31,7 +31,7 @@ const Hero = () => {
         <HiOutlineBuildingOffice2 className=" h-10 w-auto animate-bounce text-[#547793] opacity-50 md:h-20" />
       </div>
       <div className={`grid h-[90%] w-full grid-cols-1 md:grid-cols-2 `}>
-        <div className="col-span-1 flex flex-col justify-evenly ">
+        <div className="col-span-1 flex flex-col justify-evenly gap-y-10 ">
           <div className="flex flex-col items-center justify-center space-y-2 font-title text-3xl md:space-y-4 md:text-5xl pt-10 md:pl-10">
             <div>Citizen Service</div>
             <TypeAnimation
@@ -55,7 +55,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center space-x-2">
               <MdOutlinePlace />
-              <div>Localisation</div>
+              <div>Higher national school of computer science (ESI ex INI)</div>
             </div>
           </div>
           <button
@@ -67,9 +67,9 @@ const Hero = () => {
         </div>
         <div className="col-span-1 flex h-full w-full items-center justify-center ">
           <img
-            src={IMAGES.LOGOSVG}
+            src={IMAGES.LOGOPNG}
             alt="hero"
-            className="h-auto w-3/4 object-contain"
+            className="h-auto w-1/2 object-contain"
           />
         </div>
       </div>

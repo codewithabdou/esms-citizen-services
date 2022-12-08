@@ -5,6 +5,7 @@ const ROUTES = {
     SPONSORS : "/sponsors",
     FAQ : "/faq",
     TALKS : "/talks",
+    CONTACT : "/contact"
 
 }
 
