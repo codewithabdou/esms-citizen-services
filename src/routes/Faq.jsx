@@ -6,76 +6,65 @@ const FAQ = () => {
     rows: [
       {
         title: (
-          <h1 className="pl-8 font-mono font-bold tracking-wide text-white drop-shadow-3xl text-xl md:text-2xl">
+          <h1 className="pl-8 font-mono text-xl font-bold tracking-wide text-white drop-shadow-3xl md:text-2xl">
             What is a hackathon ?
           </h1>
         ),
         content: (
           <p className="px-16 pb-4 font-mono text-lg font-bold tracking-wide text-black drop-shadow-4xl">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero omnis
-            ducimus eum atque? In minus quos, temporibus similique doloremque,
-            numquam eos esse consectetur voluptatem unde molestias, dolor
-            nostrum voluptatibus possimus!
+            A Hackathon is a type of a competition in which a large number of
+            people meet to engage in collaborative computer programming.
           </p>
         ),
       },
       {
         title: (
-          <h1 className="pl-8 font-mono font-bold tracking-wide text-white drop-shadow-3xl text-xl md:text-2xl">
-            What are the services proposed in this hackathon ?
+          <h1 className="pl-8 font-mono text-xl font-bold tracking-wide text-white drop-shadow-3xl md:text-2xl">
+            Can anyone attend CS ?
           </h1>
         ),
         content: (
           <p className="px-16 pb-4 font-mono text-lg font-bold tracking-wide text-black drop-shadow-4xl">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero omnis
-            ducimus eum atque? In minus quos, temporibus similique doloremque,
-            numquam eos esse consectetur voluptatem unde molestias, dolor
-            nostrum voluptatibus possimus!
+            Yes, everyone is welcome, a computer student, student of any kind, a
+            professional or just out of curiosity.
           </p>
         ),
       },
       {
         title: (
-          <h1 className="pl-8 font-mono font-bold tracking-wide text-white drop-shadow-3xl text-xl md:text-2xl">
-            Who can participate in this workshop ?
+          <h1 className="pl-8 font-mono text-xl font-bold tracking-wide text-white drop-shadow-3xl md:text-2xl">
+            Is it free ?
           </h1>
         ),
         content: (
           <p className="px-16 pb-4 font-mono text-lg font-bold tracking-wide text-black drop-shadow-4xl">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero omnis
-            ducimus eum atque? In minus quos, temporibus similique doloremque,
-            numquam eos esse consectetur voluptatem unde molestias, dolor
-            nostrum voluptatibus possimus!
+            Absolutly, Citizenservice is and will always be totally FREE!
           </p>
         ),
       },
       {
         title: (
-          <h1 className="pl-8 font-mono font-bold tracking-wide text-white drop-shadow-3xl text-xl md:text-2xl">
-            What are the prerequisites for joining this workshop ?
+          <h1 className="pl-8 font-mono text-xl font-bold tracking-wide text-white drop-shadow-3xl md:text-2xl">
+            What do participants gain ?{" "}
           </h1>
         ),
         content: (
           <p className="px-16 pb-4 font-mono text-lg font-bold tracking-wide text-black drop-shadow-4xl">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero omnis
-            ducimus eum atque? In minus quos, temporibus similique doloremque,
-            numquam eos esse consectetur voluptatem unde molestias, dolor
-            nostrum voluptatibus possimus!
+            Participants in cs Hackathon 'll strengthen their soft skills by
+            working in a team and sharpen their echnical skills as well
           </p>
         ),
       },
       {
         title: (
-          <h1 className="pl-8 font-mono font-bold tracking-wide text-white drop-shadow-3xl text-xl md:text-2xl">
-            What is a hackathon ?
+          <h1 className="pl-8 font-mono text-xl font-bold tracking-wide text-white drop-shadow-3xl md:text-2xl">
+            Will their be mentors ?{" "}
           </h1>
         ),
         content: (
           <p className="px-16 pb-4 font-mono text-lg font-bold tracking-wide text-black drop-shadow-4xl">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero omnis
-            ducimus eum atque? In minus quos, temporibus similique doloremque,
-            numquam eos esse consectetur voluptatem unde molestias, dolor
-            nostrum voluptatibus possimus!
+            There will be qualified mentors from HIS who will follow along till
+            the end and satisfy all participants needs.
           </p>
         ),
       },
@@ -89,7 +78,7 @@ const FAQ = () => {
     rowContentColor: "grey",
     transitionDuration: "0.5s",
     timingFunc: "ease",
-    arrowColor : "white"
+    arrowColor: "white",
   };
 
   const config = {

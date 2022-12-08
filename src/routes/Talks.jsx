@@ -4,35 +4,31 @@ import IMAGES from "../constants/images";
 const Talks = () => {
   const talks = [
     {
-      title: "The Cryptocurrency",
       talker: {
         desciption: "MIT searcher",
         name: "Ryad Baghdadi",
-        pic: IMAGES.TALKER,
+        pic: IMAGES.TALKER1,
       },
     },
     {
-      title: "The Cryptocurrency",
       talker: {
-        desciption: "MIT searcher",
-        name: "Ryad Baghdadi",
-        pic: IMAGES.TALKER,
+        desciption: " lead for web at google ",
+        name: "Paul kinlan",
+        pic: IMAGES.TALKER2,
       },
     },
     {
-      title: "The Cryptocurrency",
       talker: {
-        desciption: "MIT searcher",
-        name: "Ryad Baghdadi",
-        pic: IMAGES.TALKER,
+        desciption: "CTO evangelist at Grandle",
+        name: "Justin Reock",
+        pic: IMAGES.TALKER3,
       },
     },
     {
-      title: "The Cryptocurrency",
       talker: {
-        desciption: "MIT searcher",
-        name: "Ryad Baghdadi",
-        pic: IMAGES.TALKER,
+        desciption: "Writer and cs researcher",
+        name: "Abderrahmane Kheddar",
+        pic: IMAGES.TALKER4,
       },
     },
   ];
@@ -43,7 +39,7 @@ const Talks = () => {
         Talks
       </h1>
       <div className="flex h-[90%] w-full items-center justify-center">
-        <div className=" h-full w-[90%] overflow-x-scroll scroll-smooth whitespace-nowrap scrollbar-hide gap-x-4 ">
+        <div className=" h-full w-[90%] gap-x-4 overflow-x-scroll scroll-smooth whitespace-nowrap scrollbar-hide ">
           {talks.map((talk, index) => (
             <div
               key={index}
@@ -54,18 +50,15 @@ const Talks = () => {
                 src={IMAGES.TALK}
                 alt="/"
               />
-              <div className="z-50 flex h-full w-full flex-col items-center space-y-2  pt-16  ">
-                <h1 className="font-mono text-2xl font-bold text-white drop-shadow-3xl md:text-3xl">
-                  {talk.title}
-                </h1>
+              <div className="z-50 flex h-full w-full flex-col items-center space-y-2  pt-20  ">
                 <img
                   src={talk.talker.pic}
                   alt="talker"
-                  className="h-40 w-36 xl:h-60 xl:w-56 rounded-xl border-2 border-black drop-shadow-3xl"
+                  className="h-40 w-36 rounded-xl border-2 border-black drop-shadow-3xl xl:h-60 xl:w-56"
                 />
-                <div className="flex flex-col items-center justify-center space-y-2 font-mono text-2xl font-bold text-white xl:pt-4 drop-shadow-3xl">
+                <div className="flex flex-col items-center justify-center space-y-2 font-mono text-2xl font-bold text-white drop-shadow-3xl xl:pt-4">
                   <p>{talk.talker.name}</p>
-                  <p>- {talk.talker.desciption} -</p>
+                  <p className="text-base">- {talk.talker.desciption} -</p>
                 </div>
               </div>
             </div>
