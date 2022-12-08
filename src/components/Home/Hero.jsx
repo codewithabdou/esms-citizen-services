@@ -28,7 +28,7 @@ const Hero = () => {
   return (
     <div className="relative flex h-[90vh] flex-col items-center justify-center bg-transparent ">
       <div className={`grid h-[90%] w-full grid-cols-1 md:grid-cols-2 `}>
-        <div className="col-span-1 flex flex-col justify-evenly gap-y-10 ">
+        <div className="col-span-1 flex flex-col justify-evenly gap-y-8 ">
           <div className="flex flex-col items-center justify-center space-y-2 font-title text-3xl md:space-y-4 md:text-5xl pt-10 md:pl-10">
             <div>Citizen Service</div>
             <TypeAnimation
@@ -70,7 +70,7 @@ const Hero = () => {
           />
         </div>
       </div>
-        <div onClick={OnClickHandler} className="h-[10%] ">
+        <div onClick={OnClickHandler} className="h-[10%] hidden md:block ">
           <img src={IMAGES.ARROWSDOWN} alt="arrows" className={` ${!showArrows ? "hidden" : "block"} animate-pulse cursor-pointer`} />
         </div>
       

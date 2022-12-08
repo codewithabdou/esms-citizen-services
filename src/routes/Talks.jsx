@@ -54,14 +54,14 @@ const Talks = () => {
                 src={IMAGES.TALK}
                 alt="/"
               />
-              <div className="z-50 flex h-full w-full flex-col items-center space-y-4 pt-24 xl:pt-16  ">
+              <div className="z-50 flex h-full w-full flex-col items-center space-y-2  pt-16  ">
                 <h1 className="font-mono text-2xl font-bold text-white drop-shadow-3xl md:text-3xl">
                   {talk.title}
                 </h1>
                 <img
                   src={talk.talker.pic}
                   alt="talker"
-                  className="h-48 w-44 rounded-xl border-2 border-black drop-shadow-3xl"
+                  className="h-40 w-36 xl:h-60 xl:w-56 rounded-xl border-2 border-black drop-shadow-3xl"
                 />
                 <div className="flex flex-col items-center justify-center space-y-2 font-mono text-2xl font-bold text-white xl:pt-4 drop-shadow-3xl">
                   <p>{talk.talker.name}</p>
