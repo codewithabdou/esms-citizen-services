@@ -10,11 +10,9 @@ const IMAGES = {
     ETUSA : 'images/Etusa.png',
     CEVITAL : 'images/Cevital.png',
     SAA : 'images/Saa.png',
-    TALK : 'images/talk.png',
-    TALKER1 : 'images/talker1.jpg',
-    TALKER2 : 'images/talker2.jpg',
-    TALKER3 : 'images/talker3.jpg',
-    TALKER4 : 'images/talker4.png',
+    TALKER1 : 'images/talker1.png',
+    TALKER2 : 'images/talker2.png',
+    TALKER3 : 'images/talker3.png',
 
 
 

@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import IMAGES from "../../constants/images";
 const layout = ({ children, hasNavbar = true }) => {
+  
   return (
     <div className="min-h-screen">
       <img
