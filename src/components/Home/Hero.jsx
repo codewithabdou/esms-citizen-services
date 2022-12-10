@@ -48,7 +48,7 @@ const Hero = () => {
           <div className="space-y-2 px-5 text-base text-black md:ml-20 md:px-0 md:text-xl">
             <div className="flex items-center space-x-2">
               <MdDateRange />
-              <div>February ,23th ,2023</div>
+              <div>March ,9th ,2023</div>
             </div>
             <div className="flex items-center space-x-2">
               <MdOutlinePlace />

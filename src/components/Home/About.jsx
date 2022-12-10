@@ -4,7 +4,7 @@ import Timer from "../Timer";
 
 const About = () => {
   const time = new Date();
-  const waitedDay = new Date("2023-02-23");
+  const waitedDay = new Date("2023-03-09");
   time.setSeconds(waitedDay.getTime() / 1000 - time.getTime() / 1000);
   return (
     <div className="flex h-[90vh] flex-col">
